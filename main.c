@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 int main() {
-    char answer[] = "Telefon";
+    char answer[] = "testbox";
     char guessedWord[10];
     int correctGuess = 0;
 
@@ -24,6 +24,7 @@ int main() {
         guess = toupper(guess);
 
         for (int i = 0; i < strlen(answer); i++) {
+
             if (toupper(answer[i]) == guess) {
                 guessedWord[i] = answer[i];
                 correctGuess = 1;
