@@ -2,6 +2,13 @@
 #include <string.h>
 #include <ctype.h>
 
+// TODO:
+// tries counter
+// prevent multiple guess outputs when typing in full word
+
+// TODO (ADVC):
+// draw hangman
+
 int main() {
     char answer[] = "testbox";
     char guessedWord[10];
